@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BeamNG Launcher Revitalised UI 2", "BeamNG Launcher Revitalised UI 2\BeamNG Launcher Revitalised UI 2.vbproj", "{657D2DEB-2499-4897-898A-0545B8AA729D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{657D2DEB-2499-4897-898A-0545B8AA729D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657D2DEB-2499-4897-898A-0545B8AA729D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657D2DEB-2499-4897-898A-0545B8AA729D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657D2DEB-2499-4897-898A-0545B8AA729D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B101DC1-8313-4431-B009-3465CB5C93F6}
+	EndGlobalSection
+EndGlobal
