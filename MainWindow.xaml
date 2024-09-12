@@ -1,0 +1,115 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeamNG_Launcher_Revitalised_UI_2"
+        mc:Ignorable="d"
+        KeyboardNavigation.TabNavigation="Cycle"
+        Title="Beamng Launcher Revitalised" Height="480" Width="854">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/BeamNG.drive.x64_2024-08-23_16-48-07.png"/>
+        </Grid.Background>
+        <Button x:Name="LaunchDX_button" HorizontalAlignment="Left" Margin="96,125,0,0" VerticalAlignment="Top" Width="326" Height="164" RenderTransformOrigin="0.5,0.5" Click="Button_Click_7" BorderBrush="{x:Null}" Foreground="White" Background="Black" Opacity="0.8" Padding="1,1,1,1" Focusable="True" TabIndex="1">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image Height="185" Width="294" Source="/Add_a_subheading__4_-removebg-preview.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="455,256,0,0" VerticalAlignment="Top" Height="86" Width="305" Click="Button_Click_4" Background="Black" BorderBrush="{x:Null}" Foreground="White" Opacity="0.8" FontFamily="Franklin Gothic Medium" FontSize="36" Focusable="True" TabIndex="2">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image Height="212" Width="197" Source="/Add_a_subheading__3_-removebg-preview.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Button>
+        <Button x:Name="LaunchVK_Button" HorizontalAlignment="Left" Margin="96,294,0,0" VerticalAlignment="Top" Width="326" Height="48" Click="Button_Click_8" Background="Black" BorderBrush="{x:Null}" Foreground="White" Opacity="0.8" Focusable="True" TabIndex="3">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image Height="45" Width="218" Source="/Add_a_subheading__5_-removebg-preview.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="455,347,0,0" VerticalAlignment="Top" Height="88" Width="148" Click="Button_Click_2" Background="Black" BorderBrush="{x:Null}" Foreground="White" Opacity="0.8" VerticalContentAlignment="Bottom" FontSize="22" FontFamily="Franklin Gothic Medium" Focusable="True" TabIndex="4">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Center" Height="139" VerticalAlignment="Center" Width="143" Source="/Untitled_design-removebg-preview.png" RenderTransformOrigin="0.305,0.428"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="608,347,0,0" VerticalAlignment="Top" Width="152" Height="88" Click="Button_Click_3" Foreground="White" BorderBrush="{x:Null}" Background="Black" Opacity="0.8" VerticalContentAlignment="Bottom" FontSize="22" FontFamily="Franklin Gothic Medium" Focusable="True" TabIndex="5">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Center" Height="136" VerticalAlignment="Center" Width="140" Source="/Add_a_subheading__1_-removebg-preview.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="96,347,0,0" VerticalAlignment="Top" Width="326" Height="88" Click="Button_Click_1" Foreground="White" BorderBrush="{x:Null}" Background="Black" Opacity="0.8" Focusable="True" TabIndex="6">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Center" Height="64" VerticalAlignment="Center" Width="239" Source="/Add_a_subheading__6_-removebg-preview.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="455,125,0,0" VerticalAlignment="Top" Height="126" Width="305" Click="Button_Click" Foreground="White" BorderBrush="{x:Null}" Background="Black" Opacity="0.8" Padding="1,1,1,1" VerticalContentAlignment="Center" FontFamily="Franklin Gothic Medium" FontSize="36" Focusable="True" TabIndex="7">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+        BorderBrush="{TemplateBinding BorderBrush}" 
+        BorderThickness="{TemplateBinding BorderThickness}" 
+        CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Left" Height="212" VerticalAlignment="Center" Width="235" Source="/Add_a_subheading__2_-removebg-preview.png"/>
+        </Button>
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,37,0,0" VerticalAlignment="Top" Width="664" Source="/beamlogo.png"/>
+
+    </Grid>
+</Window>

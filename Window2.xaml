@@ -1,0 +1,57 @@
+﻿<Window x:Class="Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeamNG_Launcher_Revitalised_UI_2"
+        mc:Ignorable="d"
+        Title="Beamng Launcher Revitalised - Modules" Height="480" Width="854">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/screenshot_2023-05-16_20-25-08.png"/>
+        </Grid.Background>
+        <Button HorizontalAlignment="Left" Margin="104,89,0,0" VerticalAlignment="Top" Height="92" Width="211" Click="Button_Click" BorderBrush="{x:Null}" Foreground="White" Background="Black" Opacity="0.8">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+BorderBrush="{TemplateBinding BorderBrush}" 
+BorderThickness="{TemplateBinding BorderThickness}" 
+CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+              VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Center" Height="100" VerticalAlignment="Center" Width="100" Source="/Add_a_subheading-removebg-preview.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="320,89,0,0" VerticalAlignment="Top" Height="92" Width="210" Click="Button1_Click" BorderBrush="{x:Null}" Foreground="White" Background="Black" Opacity="0.8">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+BorderBrush="{TemplateBinding BorderBrush}" 
+BorderThickness="{TemplateBinding BorderThickness}" 
+CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+              VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Center" Height="177" VerticalAlignment="Center" Width="176" Source="/Untitled_design__1_-removebg-preview.png"/>
+        </Button>
+        <Button HorizontalAlignment="Left" Margin="535,89,0,0" VerticalAlignment="Top" Height="92" Width="211"  BorderBrush="{x:Null}" Foreground="White" Background="Black" Opacity="0.8">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+BorderBrush="{TemplateBinding BorderBrush}" 
+BorderThickness="{TemplateBinding BorderThickness}" 
+CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+              VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+            <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Center" Width="100" Source="/userlmn_538b7110bc5a3ee050f6645ca36dc339.png"/>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="100" Margin="376,0,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

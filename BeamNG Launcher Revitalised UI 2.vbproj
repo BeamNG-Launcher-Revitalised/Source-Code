@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>BeamNG_Launcher_Revitalised_UI_2</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon-beamng.ico</ApplicationIcon>
+    <Title>Beamng Launcher Revitalised</Title>
+    <Company>$(Willfa)</Company>
+    <PackageIcon>beamlogo.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="744px-BeamNG-logo-2016.svg.png" />
+    <None Remove="Add_a_subheading-removebg-preview.png" />
+    <None Remove="Add_a_subheading__1_-removebg-preview.png" />
+    <None Remove="Add_a_subheading__2_-removebg-preview.png" />
+    <None Remove="Add_a_subheading__3_-removebg-preview.png" />
+    <None Remove="Add_a_subheading__4_-removebg-preview.png" />
+    <None Remove="Add_a_subheading__5_-removebg-preview.png" />
+    <None Remove="Add_a_subheading__6_-removebg-preview.png" />
+    <None Remove="Add_a_subheading__7_-removebg-preview.png" />
+    <None Remove="beamlogo.png" />
+    <None Remove="BeamNG.drive.x64_2024-08-23_15-20-30.png" />
+    <None Remove="BeamNG.drive.x64_2024-08-23_15-30-32.png" />
+    <None Remove="BeamNG.drive.x64_2024-08-23_15-45-43.png" />
+    <None Remove="BeamNG.drive.x64_2024-08-23_16-48-07.png" />
+    <None Remove="discord-white-icon.png" />
+    <None Remove="dntglst40fq0q263uafobmrmsb-8369d5884ab234b1805e267ee81a403d.png" />
+    <None Remove="icon-help.png" />
+    <None Remove="images__1_-removebg-preview.png" />
+    <None Remove="photo-xxl.png" />
+    <None Remove="puzzle-module.png" />
+    <None Remove="screenshot_2022-12-19_20-59-01.png" />
+    <None Remove="screenshot_2023-05-16_20-25-08.png" />
+    <None Remove="screenshot_2023-09-14_20-34-06.png" />
+    <None Remove="Untitled_design-removebg-preview.png" />
+    <None Remove="Untitled_design__1_-removebg-preview.png" />
+    <None Remove="userlmn_538b7110bc5a3ee050f6645ca36dc339.png" />
+    <None Remove="userlmn_68226688c2cb4d8b880686836e8a587c.png" />
+    <None Remove="userlmn_f80622760d8dbad71a7feb6aceb05560.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icon-beamng.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\beamlogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="744px-BeamNG-logo-2016.svg.png" />
+    <Resource Include="Add_a_subheading-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__1_-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__2_-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__3_-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__4_-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__5_-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__6_-removebg-preview.png" />
+    <Resource Include="Add_a_subheading__7_-removebg-preview.png" />
+    <Resource Include="beamlogo.png" />
+    <Resource Include="BeamNG.drive.x64_2024-08-23_15-20-30.png" />
+    <Resource Include="BeamNG.drive.x64_2024-08-23_15-30-32.png" />
+    <Resource Include="BeamNG.drive.x64_2024-08-23_15-45-43.png" />
+    <Resource Include="BeamNG.drive.x64_2024-08-23_16-48-07.png" />
+    <Resource Include="discord-white-icon.png" />
+    <Resource Include="dntglst40fq0q263uafobmrmsb-8369d5884ab234b1805e267ee81a403d.png" />
+    <Resource Include="icon-help.png" />
+    <Resource Include="images__1_-removebg-preview.png" />
+    <Resource Include="photo-xxl.png" />
+    <Resource Include="puzzle-module.png" />
+    <Resource Include="screenshot_2022-12-19_20-59-01.png" />
+    <Resource Include="screenshot_2023-05-16_20-25-08.png" />
+    <Resource Include="screenshot_2023-09-14_20-34-06.png" />
+    <Resource Include="Untitled_design-removebg-preview.png" />
+    <Resource Include="Untitled_design__1_-removebg-preview.png" />
+    <Resource Include="userlmn_538b7110bc5a3ee050f6645ca36dc339.png" />
+    <Resource Include="userlmn_68226688c2cb4d8b880686836e8a587c.png" />
+    <Resource Include="userlmn_f80622760d8dbad71a7feb6aceb05560.png" />
+  </ItemGroup>
+
+</Project>
